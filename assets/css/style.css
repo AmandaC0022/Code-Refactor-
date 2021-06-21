@@ -1,0 +1,158 @@
+/* This selects the entire webpage so that the background covers completely from side to side and top to bottom. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This sets the background color for the body */ 
+body {
+    background-color: #d9dcd6;
+}
+
+/*This controls the header bar by setting a background color, font, font color, and a 20px padding around all elements.*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This changes the font size for Hori to 48px and the display inline-block allows the letters Hori to sit on the same line as the letters seon. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* This changes the font color of the letters seo in the header */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This sets the css for the links in the header. Floating them to the right takes them out of  */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This deletes the bullet point from the link list */
+.header div ul {
+    list-style-type: none;
+}
+
+/* This puts the links in the header next to each other and gives them a 25px left margin. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This changes the link font color and removes any decoration set from the .header div */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This sets the font size of all of the paragraphs. */ 
+p {
+    font-size: 16px;
+}
+
+/* This is the large image underneath the header */ 
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This moves the search engine opitimazation and social media marketing images to the left of their containers. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* This moves the onine reputation management image to the right of its container. */ 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This sets the three containers for seach engine optimization, online reputation management and social media marketing so that the three sections sit on top of each other and take up 75% of the screen. */ 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* This sets the max-height of the three images in the content section.*/ 
+.content img {
+    max-height: 200px;
+}
+
+/* This sets the CSS for the right vertical contianer. Floating it has moved it to the right of the screen next to the other three boxes.*/ 
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This controls the font color of the floated container and gives each of them a bottom margin of 32 pixels. */
+.benefit-lead, .benefit-cost, .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead > img, .benefit-brand > img, .benefit-cost > img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
