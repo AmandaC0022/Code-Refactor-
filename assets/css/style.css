@@ -11,7 +11,7 @@ body {
 }
 
 /*This controls the header bar by setting a background color, font, font color, and a 20px padding around all elements.*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,17 +19,17 @@ body {
 }
 
 /* This changes the font size for Hori to 48px and the display inline-block allows the letters Hori to sit on the same line as the letters seon. */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* This changes the font color of the letters seo in the header */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* This sets the css for the links in the header. Floating them to the right takes them out of  */
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,12 +38,12 @@ body {
 }
 
 /* This deletes the bullet point from the link list */
-.header div ul {
+nav ul {
     list-style-type: none;
 }
 
 /* This puts the links in the header next to each other and gives them a 25px left margin. */
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
