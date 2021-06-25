@@ -5,12 +5,12 @@
     margin: 0;
 }
 
-/*This sets the background color for the body */ 
+/* This sets the background color for the body */ 
 body {
     background-color: #d9dcd6;
 }
 
-/*This controls the header bar by setting a background color, font, font color, and a 20px padding around all elements.*/
+/* This controls the header bar by setting a background color, font, font color, and a 20px padding around all elements.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -82,7 +82,7 @@ p {
 }
 
 /* This sets the three containers for seach engine optimization, online reputation management and social media marketing so that the three sections sit on top of each other and take up 75% of the screen. */ 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -94,19 +94,19 @@ p {
 }
 
 /* This sets the CSS for the right vertical contianer. Floating it has moved it to the right of the screen next to the other three boxes.*/ 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /* This controls the font color of the floated container and gives each of them a bottom margin of 32 pixels. */
-.benefit-lead, .benefit-cost, .benefit-brand {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -116,43 +116,36 @@ p {
     text-align: center;
 }
 
-.benefit-lead > img, .benefit-brand > img, .benefit-cost > img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/*This is the main three sections titled: seach engine optimization, online reputation management and social media marketing.  */ 
+main .content{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/*This is the headers for the three main sections. */ 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-.footer {
+/* This is the footer. */ 
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
